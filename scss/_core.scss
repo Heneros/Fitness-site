@@ -1,0 +1,15 @@
+body{
+font-family: 'Roboto Condensed', 'Dosis', sans-serif;
+font-size: 15px;
+}
+
+.container{
+@include  min-max(320px, 100%, 0);
+}
+.wrap {
+    @include  min-max(320px, 1170px, 15px);
+  }
+
+p{
+    color: black;
+}

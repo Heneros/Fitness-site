@@ -1,0 +1,90 @@
+.fitness{
+  
+    position: relative;
+
+      .fitness__img{
+
+          img {
+            display: block;
+            max-width: 100%;
+          }
+      }
+      .fitness__info{
+        position: absolute;
+        top: 0px;
+        bottom: 253px;
+        left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 46%;
+          p{
+            margin: 15px 0;
+            color: #fff;
+
+          }
+          .fitness__title{
+              font-size: 116px;
+              font-weight: 300;
+              text-transform: uppercase;
+              letter-spacing: 1.32px;
+
+              span{
+                  font-weight: 750;
+              }
+          }
+          .fitness__type{
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 31px;
+            color: #ff5800;
+            text-transform: uppercase;
+          }
+    
+      }
+      
+}
+@media (max-width: 1300px){
+.fitness{
+    .fitness__info{
+        top: 44%;
+        .fitness__title{
+            font-size: 65px;
+        }
+       .fitness__type{
+        font-size: 20px; 
+        line-height: 25px;
+       } 
+    }
+  }
+}
+@media (max-width: 789px){
+    .fitness{
+        .fitness__info{
+            line-height: 13px;
+            max-width: 90%;
+            .fitness__title{
+                font-size: 34px;
+            }
+            .fitness__type{
+                font-size: 20px;
+            }
+        }
+      }
+    }
+@media (max-width: 508px){
+    .fitness{
+        .fitness__info{
+            top: 132px;
+            line-height: 13px;
+            font-size: 13px;
+            .fitness__title{
+                font-size: 20px;
+            }
+            .fitness__type{
+                font-size: 14px;
+                line-height: 1px;
+            }
+        }
+      }
+    }

@@ -1,0 +1,33 @@
+.top{
+    padding: 13px 0;
+    .top__wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .top__menu {
+        flex-basis: 46%;
+      }
+    
+}
+@media (max-width: 720px){
+    .top{
+        .top__menu{
+            flex-basis: 80%;
+        }
+        
+        .top__left{
+            flex-basis: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 475px){
+    .top{
+        .top__menu{
+            flex-basis: 100%;
+        }
+    }
+}

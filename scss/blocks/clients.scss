@@ -1,0 +1,111 @@
+.clients{
+    background-color: #fff; 
+    box-shadow: 0 3px 78px rgba(0,0,0,.1);
+    padding: 92px 50px 86px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 75%;
+    left: 20%;
+    right: 21%;
+    z-index: 999;
+    .clients__left{
+        display: flex;
+        position: relative;
+        max-width: 277px;
+        .clients__title{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 15px;
+
+        }
+        .clients__link{
+            position: absolute;
+            top: 62px;
+            left: 94px;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $red;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        svg{
+            height: 85px;
+            width: 104px;
+        }
+
+    }
+ 
+    .clients__right{
+        display: flex;
+        position: relative;
+        max-width: 277px;
+        svg{
+            height: 65px;
+            width: 104px;
+        }
+        .clients__title{
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 27px;
+            padding-left: 15px;
+
+        }
+        .clients__link{
+            position: absolute;
+            top: 57px;
+            left: 103px;
+            font-size: 14px;
+            text-transform: uppercase;
+            color: $red;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+    }
+ 
+
+}
+@media(max-width: 934px){
+    .clients{
+        top: -8%;
+    }
+}
+@media(max-width: 789px){
+    .clients{
+        right: 0%;
+        left: 0%;
+        top: -11%;
+
+    }
+}
+@media(max-width: 573px){
+    .clients{
+        top: -4%;
+
+    }
+}
+@media(max-width: 485px){
+    .clients{
+        display: inline-block;
+        .clients__left{
+            max-width: 200px;
+            margin-top: -71px;
+            .clients__title{
+                font-size: 14px;
+            }
+        }
+        .clients__right{
+            max-width: 200px;
+            .clients__title{
+                font-size: 14px;
+            }
+
+        }
+  
+    }
+}

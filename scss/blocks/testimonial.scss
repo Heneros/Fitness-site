@@ -1,0 +1,37 @@
+.testimonial{
+    background-color: $red;
+    padding: 160px 402px;
+    .text__block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        >p{
+            font-size: 48px;
+            color: #fff;
+            line-height: 64px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 34px;
+        }
+        .btn__testiomonial{
+            font-size: 48px;
+            background-color: #fff;
+            color: $red;
+            line-height: 64px;
+            font-weight: 600;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            padding: 19px 54px;    
+            cursor: pointer;
+           
+        }
+    }
+}
+@media(max-width: 1350px){
+    .testimonial{
+        padding: 0;
+    }
+}
