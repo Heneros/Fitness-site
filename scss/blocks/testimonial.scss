@@ -26,6 +26,7 @@
             border: none;
             padding: 19px 54px;    
             cursor: pointer;
+            margin-bottom: 36px;
            
         }
     }
@@ -33,5 +34,16 @@
 @media(max-width: 1350px){
     .testimonial{
         padding: 0;
+    }
+}
+@media(max-width: 858px){
+    .testimonial{
+
+        .text__block{
+    >p{
+        font-size: 25px;
+        line-height: 43px;
+               }
+        }
     }
 }
