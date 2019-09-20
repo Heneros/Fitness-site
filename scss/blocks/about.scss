@@ -59,8 +59,15 @@ video{
    @media(max-width: 494px){
     .iframe__container{
                    video{
-                    width: 212%;
-        }
+                    min-width: 230%
+                        }
+    }
+}
+@media(max-width: 339px){
+    .iframe__container{
+                   video{
+                    visibility: hidden;
+                        }
     }
 }
 

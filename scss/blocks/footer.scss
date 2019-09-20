@@ -1,0 +1,40 @@
+.footer{
+    background-color: $red;
+      ul{
+        display: flex;
+        justify-content: center;
+        padding-top: 52px;
+        flex-wrap: wrap;
+          li{
+              padding-left: 27px;
+              a{
+                  text-transform: uppercase;
+                  text-decoration: none;
+                  color: #fff;
+              }
+          }
+      }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0;
+      p{
+        color: #fff;  
+
+      }
+  }
+}
+
+@media(max-width: 485px){
+  .footer{
+      ul{
+        display: inline-flex;
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+        padding: 35px 0;
+
+      }
+  }
+}
